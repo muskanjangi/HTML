@@ -31,4 +31,33 @@ Through these networks, you can share resources, communicate, send messages, and
 
 What is Internet?
 - The Internet is the global system that connects billions of devices. It is called the network of networks. In simple words, networks like LAN, MAN, and WAN combine together to form the Internet. It is a super-entity of networks.
+Basically, browsing websites, using WhatsApp, checking email, scrolling through Instagram, online shopping, booking cabs, and playing online games are practical examples of how the internet is used.
 Within the Internet, there is the WWW (World Wide Web), which is a smaller entity where documents and resources are stored and can be accessed using the Internet.
+What is WWW?
+-The World Wide Web is a system where numerous web pages are linked to each other, and their HTML, CSS, and JavaScript code is interconnected through hyperlinks.
+What is ip address?
+-If I want to send a gift to my friend, I need to know the address of his house. Similarly, when a machine is connected to the internet, it has an IP address—a unique identifier that distinguishes it from other machines. So, if Machine 1 wants to send data to Machine 2, it must know the IP address of Machine 2.
+
+
+What are Borowsers?
+-Browsers are tools used to access documents, resources, websites, and web applications. Popular browsers include Google Chrome, Safari, Mozilla Firefox, and Opera. The browser engine acts as the brain of the browser, responsible for interpreting code and rendering content on the screen.
+eg-Imagine you’re reading a recipe (HTML), decorating the dish (CSS), and adding some cool effects like steam or sizzling sounds (JavaScript). The browser engine is the chef that reads all those instructions and brings the dish to life on your plate (screen).
+** Google Chrome and Opera use the Blink browser engine, Safari uses WebKit, and Mozilla Firefox uses Gecko.
+
+//Client-Server:
+A client sends requests to a server, and the server responds accordingly. These requests come in various types:
+- GET – used to retrieve data from the server
+- POST – used to send data to the server
+- PUT – used to update or modify existing data
+- DELETE – used to remove data from the server
+Clients can include devices or interfaces such as laptops, PCs, mobile phones, applications, command-line terminals, and browsers. Servers, on the other hand, can be of different types, such as database servers, web servers, email servers, file servers, and application servers.
+
+eg-if a user types www.fb.com to request data, the response requires an IP address.
+This is because www.fb.com is a domain name, and the DNS (Domain Name System) converts it into an IP address.
+In detail:
+- When a user requests data by entering a domain name, the system performs domain name resolution to find the corresponding IP address.
+- Once the IP address is obtained, the request is sent to the Facebook server.
+- The server processes the request and returns a response, which is then displayed as data on the user's device.
+eg- If Sushant wants a good haircut and he requests Nitin to give him one, then think of Nitin as the domain name. This domain name is converted into an IP address, and the haircut is the request. Nitin, acting as the server, receives the request and provides the response by giving the haircut.
+
+  
