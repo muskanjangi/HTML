@@ -106,3 +106,53 @@ The Domain Name System (DNS) is structured like an inverted tree, starting from 
 //IP address
 An IP address is a unique identifier assigned to each device connected to a network. It’s written in a numerical format, typically as four sets of numbers separated by dots (e.g., 192.168.1.1). This format is known as IPv4 (Internet Protocol version 4), which uses 32-bit addressing and can support around 4.3 billion unique addresses. However, with the explosive growth of internet-connected devices, IPv4 addresses are running out. That’s why IPv6 (Internet Protocol version 6) was introduced. IPv6 uses 128-bit addressing, allowing for an almost unlimited number of unique IP addresses, ensuring scalability and continued growth of the internet. It also improves routing efficiency and security features compared to IPv4.
 
+//HTML,CSS,JS-
+HTML stands for HyperText Markup Language.
+It defines the structure of a web page. HTML is like labeling content:
+“This is a heading,” “This is a paragraph,” “This is a section,” “This is a form,” etc.
+Just like Java or C++ provide structure in programming, HTML provides structure for web pages.
+CSS stands for Cascading Style Sheets.
+It handles the styling and appearance of the page.
+You can change background colors, add animations, adjust font sizes, and more using CSS.
+JS stands for JavaScript.
+It adds logic and interactivity to the page.
+JavaScript is like the brain—it defines how the page behaves.
+
+//Analogy: Human Body
+- HTML is like the skeleton of a human body. It defines the parts—hands, legs, head, etc.
+- CSS is like the skin and appearance—fair, brown, black, etc.
+- JavaScript is like the brain—it controls behavior and responses.
+So, HTML gives a description and structure of the web page, CSS makes it look good, and JS makes it think and respond.
+
+//Tags -
+In HTML, tags are the building blocks that define the structure and content of a webpage. Each tag serves a specific purpose—like <h1> and <h2> for headings, <p> for paragraphs, <section> for organizing content, <article> for standalone pieces, and <form> for user input. Tags are enclosed in angle brackets and usually come in pairs: an opening tag and a closing tag. They help browsers understand how to display and interpret the content within a webpage.
+
+**there are 2 tyoes of tags which are open and close tyags ,but also theer are only open tags . 
+
+HTML Elements
+- 1. HTML Element
+<html> is root element for HTML content.
+- 2. HTML Tag
+<html> is not itself visible. It is a tag.
+- 3. SEO → Search Engine Optimization
+It helps to increase visibility of website.
+- 4. These meta tags can help us make our website more visible.
+- 5. Meta tags are used to describe the content of the webpage.
+
+## Summary
+STRUCTURE OF HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    1. extra content that is not visible on webpage
+    2. title, metadata, description
+  </head>
+
+  <body>
+    1. extra content that is visible on webpage
+    2. heading, paragraph, etc.
+  </body>
+</html>
+
+
+
