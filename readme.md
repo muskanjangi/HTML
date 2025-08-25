@@ -154,5 +154,183 @@ STRUCTURE OF HTML
   </body>
 </html>
 
+# What are Tags?
+→ Tag is a machine entity  
+   Tag gives the content a structure,  
+   a meaning,  
+   a formatting
 
+→ Tags are keywords enclosed in angle brackets  
+   which tells the browser how to display the content  
+   Tags are not visible in the output  
+   Tags are used to create HTML elements  
+   Tags are used to define the structure of the webpage  
+   Tags are used to create hyperlinks, paragraphs, headings, etc.
+
+→ Tags are of two types:  
+   1. Paired Tags  
+   2. Unpaired Tags
+
+→ Paired Tags:  
+   Tags which have both opening and closing tags  
+   Opening tag starts with `<tagname>`  
+   Closing tag starts with `</tagname>`  
+   Example:  
+   `<html> </html>`  
+   `<body> </body>`  
+   `<head> </head>`  
+   `<title> </title>`  
+   `<p> </p>`  
+   `<h1> </h1>`  
+   `<table> </table>`  
+   `<tr> </tr>`  
+   `<td> </td>`
+
+→ Unpaired Tags:  
+   Tags which do not have closing tags  
+   Example:  
+   `<br>`  
+   `<hr>`  
+   `<img>`  
+   `<input>`  
+   `<meta>`  
+   `<link>`
+   # Self Closing Tags
+
+→ Tags which do not have closing tags  
+→ They do not enclose any content  
+→ They will not decrease the performance of webpage
+
+Examples:  
+→ `<br>` : line break  
+→ `<hr>` : horizontal line  
+→ `<img>` : image  
+→ `<input>` : input field  
+→ `<meta>` : metadata  
+→ `<link>` : link external resources
+
+Can a site contain multiple <h1>? → Yes, for different sections
+
+# <a> Anchor Tag
+
+→ Anchor tag is used to create hyperlinks  
+→ Hyperlinks are clickable text or images  
+→ It is used to link one page to another page  
+→ It is used to link external websites  
+→ It is used to link files, folders, email, etc.  
+→ The anchor tag is written as: `<a href="url">text</a>`  
+→ The url is the destination of the link  
+→ Example:  
+   `<a href="https://www.google.com">Click Here</a>`  
+   Output:  
+   Click Here → www.google.com
+
+→ Practical usage:  
+   There is no need to write full url  
+   Just write relative path  
+   That’s because it is part of same webpage
+
+Webpage  
+↘  
+www.google.com
+
+<a href="mailto:abc@gmail.com">Submit</a>  
+→ Used to send mail to the mentioned email
+
+<a href="tel:+91-1234567890">Call</a>  
+→ Used to make a call
+
+Examples:  
+`<a href="page1.html">Page 1</a>`  
+`<a href="page2.html">Page 2</a>`  
+`<a href="burger.html">Burger</a>`
+
+Two Page →  
+Page 1  
+Burger
+
+`<html>`  
+   `<head>`  
+   `<title>Page 1</title>`  
+   `</head>`  
+   `<body>`  
+      `<a href="page2.html">Page 2</a>`  
+      `<a href="burger.html">Burger</a>`  
+   `</body>`  
+`</html>`
+
+→ `<table>` is used to create a table  
+→ It is used to arrange content into rows and columns  
+→ Table is created using multiple tags  
+→ Table has both instructions and actual data  
+→ Table has both instructions and actual data  
+    but `<tr>` and `<td>` are not block level
+
+× `<div>`  
+× `<body>`
+
+→ `<table>`  
+→ `<tr>` : table row  
+→ `<td>` : table data  
+→ `<th>` : table heading
+
+Example Format →  
+<table>  
+   <tr>  
+      <td> x </td>  
+      <td> x </td>  
+   </tr>  
+</table>
+
+R1 →  
+   `<tr>`  
+      `<td>` 1 `</td>`  
+      `<td>` 2 `</td>`  
+      `<td>` 3 `</td>`  
+   `</tr>`
+
+R2 →  
+   `<tr>`  
+      `<td>` 4 `</td>`  
+      `<td>` 5 `</td>`  
+      `<td>` 6 `</td>`  
+   `</tr>`
+
+R3 →  
+   `<tr>`  
+      `<td>` 7 `</td>`  
+      `<td>` 8 `</td>`  
+      `<td>` 9 `</td>`  
+   `</tr>`
+
+Practical Usage →  
+<table border="1">  
+   <tr>  
+      <td> 1 </td>  
+      <td> 2 </td>  
+      <td> 3 </td>  
+   </tr>  
+   <tr>  
+      <td> 4 </td>  
+      <td> 5 </td>  
+      <td> 6 </td>  
+   </tr>  
+   <tr>  
+      <td> 7 </td>  
+      <td> 8 </td>  
+      <td> 9 </td>  
+   </tr>  
+</table>
+
+→ Every tag has some attributes  
+→ Attributes are used to provide additional information about the element  
+→ Attributes are written inside the opening tag  
+→ Attributes have 2 components:  
+   1. Name  
+   2. Value  
+→ Example:  
+   `<a href="https://www.google.com">Click Here</a>`  
+   → href is the attribute  
+   → https://www.google.com is the value  
+→ Multiple attributes will be separated by a single space
 
