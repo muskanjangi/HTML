@@ -127,11 +127,7 @@ So, HTML gives a description and structure of the web page, CSS makes it look go
 //Tags -
 In HTML, tags are the building blocks that define the structure and content of a webpage. Each tag serves a specific purpose—like <h1> and <h2> for headings, <p> for paragraphs, <section> for organizing content, <article> for standalone pieces, and <form> for user input. Tags are enclosed in angle brackets and usually come in pairs: an opening tag and a closing tag. They help browsers understand how to display and interpret the content within a webpage.
 
-<<<<<<< HEAD
 **there are 2 tyoes of tags which are open and close tyags ,but also theer are only open tags . 
-=======
-**there are 2 tyoes of tags which are open and close tyags ,but also there are also self closing tags eg. <br> or <br/> . 
->>>>>>> 5bfa79c5b3633982ff3980f39d681ac42219deb6
 
 HTML Elements
 - 1. HTML Element
