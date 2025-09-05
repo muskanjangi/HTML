@@ -18,13 +18,16 @@
 <br>
 <br>
 
-    <label for="phone1"> Phone:</label>
-    <input type="text" name="Phone" id="phone1">
+    <label for="phone1">Phone:</label>
+<input type="tel" name="Phone" id="phone1"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+<small>Format: 123-456-7890</small>
 <br>
 <br>
 
     <label for="occupation1">Occupation:</label>
-    <select name="Occupation:" id="occupation1" multiple size="3" style="display:inline-block;vertical-align: top;">
+    <select name="Occupation:" id="occupation1">
         <option value="business">Business</option>
         <option value="job" disabled>Job</option>
         <option value="housemaker" disabled>Housemaker</option>
@@ -32,7 +35,9 @@
 <br>
 <br>
 
-   Types of Interest:
+   <fieldset>
+    <legend>Topics of Interest</legend>
+   
 <br>
 
     <label for="interest1">HTML</label>
@@ -47,9 +52,11 @@
     <input type="checkbox" name="JavaScript" id="interest3">
 <br>
 <br>
+</fieldset>
+<br>
 
     <textarea name="comments" id="comments" cols="20" rows="5" placeholder="Comments:"></textarea>
-    <button type="submita">Register</button>     
+    <button type="submit">Register</button>     
 </body>
 
 </html>
