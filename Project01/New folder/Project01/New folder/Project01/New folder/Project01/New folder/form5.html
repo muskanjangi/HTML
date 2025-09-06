@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form4</title>
+</head>
+<body>
+    
+    <h2>Complex Information</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="name1">Name</label>
+        <input type="text" name="name" id="name1">
+        <label for="email1">Email</label>
+        <input type="email" name="email" id="email1">
+        <label for="phone no.">Phone</label>
+        <input type="tel" name="phone no." id="phone no.1" pattern="[0-9] {10}" required>
+        <label for="DOB1">Date of Birth</label>
+        <input type="date" name="DOB" id="DOB1">
+        <p>
+            Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </p>
+        <label for="country">Country</label>
+        <select name="Country" id="country">
+            <option value="United States">United States</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Japan">Japan</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+        <label for="street1">Street</label>
+        <input type="text" name="street" id="street1">
+        <label for="city1">City</label>
+        <input type="text" name="city" id="city1">
+        <label for="state1">State</label>
+        <input type="text" name="state" id="state1">
+        <label for="zipcode1">Zip Code</label>
+        <input type="text" name="zip code" id="zipcode1">
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+        <label for="comments1">Comments</label>
+        <textarea name="comments" id="comments1" rows="5" cols="40"></textarea>
+        <label for="agree1">I agree to the terms of service</label>
+        <input type="checkbox" name="agree or not" id="agree1">
+        </fieldset>
+        <button>Submit</button>
+
+    </form>
+    </form>
+</body>
+</html>
