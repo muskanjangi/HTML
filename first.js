@@ -73,7 +73,7 @@ let marks ;            //undefined
 console.log(typeof(marks));
 */
 
-
+/*
 //OPEARTORS AND CONDITIONALS IN JS 
 // operators are the specific symbols to perform operations like +,-,...
 //unary and binary operators-having 1 operand like ++a,--a
@@ -159,7 +159,7 @@ console.log(nameOfStudent); // throws ubdefined error
 
 let value = null;
 console.log(value);   // print null
-*/
+
 marks = 56;
 console.log(typeof(marks));  //number
 
@@ -177,4 +177,75 @@ console.log(typeof(marks));   //object
 
 let marks ;            //undefined
 console.log(typeof(marks));
+*/
+
+//                5)Logical Operators:it is used to connect 2 or more conditions/expressions to make decisions based on criteria employed.
+//  AND(&&)
+//  OR(||)
+//  NOT(!)
+/*let ans=(true && true && true)
+console.log(ans);
+let ans1= !(true)
+console.log(ans1);
+//working with non-booleans- ans2=(false ||'MUSKAN') what should be tehy answer, so study falsey and truthy, falsey-undefined,0,null,false,NaN,' ' and truthey - anything which is not falsey.
+ans2=(false ||'MUSKAN')
+ans3=(0 ||'MUSKAN')
+ans4=(null ||'MUSKAN')
+ans5=(NaN ||'MUSKAN')
+ans6=(undefined ||'MUSKAN')
+ans7=(' ' ||'MUSKAN')
+console.log(ans3);
+console.log(undefined || 7 || 10 )
+
+
+//           6)Bitwise operators-  Bitwise AND -> & , Bitwise OR -> | ,Bitwise NOT ->  ,Bitwise >> ,Bitwise <<,Bitwise XOR -> ^
+console.log(0 & 0 & 1);
+console.log(0 | 1 | 0);
+console.log(2^1);  
+console.log(2 & 5);
+console.log(2 | 5);
+console.log(10 << 2);  // num << a = num * 2^a
+console.log(100 >> 2); // nums << a = num / 2^a
+
+
+//CONDITIONALS : 1)if-else 2)Switch
+let his_age = 100;
+if(his_age < 18){
+    console.log("cannot vote");
+}
+else{
+    console.log("can vote");
+}
+
+
+let number = 1;
+if(number <= 100){
+     console.log("number is lessernthan 100");
+}
+else if(number <= 11){
+    console.log("number is lessernthan 11");
+    
+}
+else if(number >= 2){
+    console.log("number is greater than 2");
+}
+else{
+    console.log("number is 10");
+}
+*/
+// 2)Switch
+
+switch(number = 2){
+    case 1: console.log('A');
+    break;
+    case 2: console.log('B');
+    break;
+    case 3: console.log('C');
+    break;
+    default : console.log('D');
+    
+}
+
+                                   
+
 
